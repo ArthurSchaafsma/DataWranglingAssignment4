@@ -19,7 +19,7 @@ AEO_Diff (average equalized-odds difference) and accuracy / balanced accuracy / 
    (internet needed) and takes about 1-3 minutes in total. AIF360 prints a few warnings about optional packages
    (AdversarialDebiasing, fairlearn, inFairness): ignore them.
 
-Without an IDE: `python -m venv .venv`, activate it, `pip install -r requirements.txt`, `python reweighing_pipeline.py`.
+Without an IDE: `python -m venv .venv`, activate it, `pip install -r requirements.txt`, `python Reweighing_fairness_pipeline.ipynb`.
 
 ## What you get (written next to the script)
 | File | Content |
