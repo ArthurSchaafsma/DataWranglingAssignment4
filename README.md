@@ -15,7 +15,7 @@ AEO_Diff (average equalized-odds difference) and accuracy / balanced accuracy / 
    pip install -r requirements.txt
    ```
    (`pandas` must stay below 3: AIF360 0.6.1 crashes with pandas 3.x.)
-5. **Run:** right-click `reweighing_pipeline.py` > *Run*. The first run downloads the three datasets into `data/raw/`
+5. **Run:** right-click `Reweighing_fairness_pipeline.ipynb` > *Run*. The first run downloads the three datasets into `data/raw/`
    (internet needed) and takes about 1-3 minutes in total. AIF360 prints a few warnings about optional packages
    (AdversarialDebiasing, fairlearn, inFairness): ignore them.
 
