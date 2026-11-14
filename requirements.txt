@@ -1,0 +1,7 @@
+aif360==0.6.1
+scikit-learn
+pandas<3
+numpy
+scipy
+# only needed to open the notebook (not for the script):
+# jupyter
