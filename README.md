@@ -35,12 +35,11 @@ run time: copy them into the report's parameter section.
 
 ## Files
 ```
-reweighing_pipeline.py                 the pipeline as a script (`# %%` markers = cells in IntelliJ)
-Reweighing_fairness_pipeline.ipynb     the same pipeline as a notebook (needs `jupyter`; IntelliJ Ultimate or Jupyter)
+Reweighing_fairness_pipeline.ipynb     the pipeline as a notebook (needs `jupyter`; IntelliJ Ultimate or Jupyter)
 loaders/                               AIF360 dataset loaders, copied unchanged (Apache-2.0)
 requirements.txt
 ```
-The script and the notebook contain the same code. Settings are in the *Configuration* cell: test size, seeds,
+Settings are in the *Configuration* cell: test size, seeds,
 classifier, `USE_SENSITIVE_AS_FEATURE` (main experiment: True), `RUN_A2_VARIANT`, `COMPAS_DROP_CHARGE_DESC`.
 
 ## Troubleshooting
